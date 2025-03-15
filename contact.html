@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="pp">
+        <h1 class="ht">Elégance chaussure</h1>
+        <nav >
+            <ul class="hau">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="avantage.html">Avantage</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-form-container">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="POST" enctype="multipart/form-data" class="contact-form">
+            
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="Ex : +33 6 12 34 56 78">
+            </div>
+
+            <div class="form-group">
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="urgent">Message urgent ?</label>
+                <select id="urgent" name="urgent">
+                    <option value="non">Non</option>
+                    <option value="oui">Oui</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="fichier">Joindre un fichier</label>
+                <input type="file" id="fichier" name="fichier">
+            </div>
+
+            <div class="form-group">
+                <label for="consentement">
+                    <input type="checkbox" id="consentement" name="consentement" required>
+                    J'accepte les <a href="#">conditions d'utilisation</a> et la <a href="#">politique de confidentialité</a>.
+                </label>
+            </div>
+
+            <button type="submit" class="submit-btn">Envoyer</button>
+        </form>
+    </div>
+
+     <footer>
+        <p>&copy; 2025 Ma Boutique de Chaussures. Tous droits réservés.</p>
+        <ul>
+            <li><a href="#">Politique de confidentialité</a></li>
+            <li><a href="#">Mentions légales</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
