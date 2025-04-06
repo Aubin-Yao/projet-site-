@@ -185,3 +185,62 @@ button{
 
 
 }
+@media (max-width: 1200px) {
+    header nav ul.hau li {
+        margin: 0 10px;
+    }
+
+    main.cor .banner .be {
+        font-size: 2rem;
+    }
+
+    main.cor .ml img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    header.pp {
+        padding: 15px;
+    }
+
+    header.pp h1.ht {
+        font-size: 1.5rem;
+    }
+
+    header nav ul.hau {
+        display: block;
+        text-align: left;
+    }
+
+    header nav ul.hau li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main.cor .ml {
+        flex-direction: column;
+    }
+
+    main.cor .ml img {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header.pp h1.ht {
+        font-size: 1.2rem;
+    }
+
+    header nav ul.hau li {
+        font-size: 0.9rem;
+    }
+
+    main.cor .ml img {
+        width: 100%;
+        height: auto;
+    }
+}
